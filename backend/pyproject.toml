@@ -1,0 +1,11 @@
+[project]
+name = "personal-agents"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Joao Otavio", email = "joaootaviofm@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=1.2.22",
+]
