@@ -9,4 +9,5 @@ requires-python = ">=3.12"
 dependencies = [
     "langchain-openai>=1.8.0",
     "langgraph>=1.2.22",
+    "pydantic-settings>=2.16.3",
 ]
