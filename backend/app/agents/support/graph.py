@@ -15,6 +15,7 @@ builder.add_node("tools", ToolNode([get_order]))
 builder.add_edge(START, "classify")
 builder.add_conditional_edges("classify", route)
 builder.add_conditional_edges("respond", tools_condition)
+builder.add_edge("tools", "respond")
 builder.add_edge("escalate", END)
 
 graph = builder.compile()
